@@ -14,7 +14,7 @@ This project implements a simple pipelined version of the Nios II processor in V
 ## Architecture
 
 The CPU works with a simple 5-stage pipeline constituted of the Fetch, Decode, Execute, Memory and Writeback (F-D-E-M-W) stages. All the instructions go through these 5 stages, even if some of them are not used. There are no forwarding paths, stalls or flushes. Furthermore, the [Harvard architecture](https://en.wikipedia.org/wiki/Harvard_architecture) was chosen.  
-The overall structure of the CPU looks as following.
+The overall structure of the CPU looks as follows.
 
 <img src="images/CPU.png" width="600" />
 
